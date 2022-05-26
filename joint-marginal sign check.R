@@ -28,9 +28,7 @@ reality.check = function(var.list, y, df){
   return(final)
 }
 
-
-mydata <- read.csv("https://stats.idre.ucla.edu/stat/data/binary.csv")
-
+# Example usage
+mydata = read.csv("https://stats.idre.ucla.edu/stat/data/binary.csv")
 var.list = c("gre", "gpa", "rank")
-
 reality.check(var.list=var.list, y="admit", df=mydata)
