@@ -1,4 +1,3 @@
-library(ggplot2)
 library(broom)
 
 reality.check = function(var.list, y, df, decimals=6){
